@@ -1,0 +1,796 @@
+:root {
+    
+    --lblue: rgba(0, 153, 216);
+    --dblue: rgba(0, 84, 166);
+    --yellow: rgba(255,230, 0);
+    
+}
+
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+/* Header */
+
+header {
+    
+    width: 100%;
+    padding: 1% 0%;
+    background: var(--lblue);
+    z-index: 5;
+    
+}
+
+#logo {
+    
+    width: 70%;
+    
+}
+
+header i {
+    
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    color: #fff;
+    
+}
+
+header p {
+    
+    position: absolute;
+    top: 4.1rem;
+    left: 10rem;
+    color: #19468d;
+    
+}
+
+.main-nav {
+    
+    display: none;
+    
+}
+
+
+.mobile-nav {
+    
+    height: 0;
+    
+}
+
+
+
+.mobile-nav .navigation {
+    
+    padding: 1rem 0;
+    transform: translateY(-400px);
+    
+}
+
+
+.mobile-nav .navigation li {
+    
+    display: block;
+    margin-left: 50%;
+    transform:translate(-25%);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+
+}
+
+.mobile-nav .navigation li a {
+    
+    color: #fff;
+    
+}
+
+
+/* Main-Content */
+
+
+.main-content {
+    
+    width: 100%;
+    
+}
+
+
+
+
+/*HTML LEHT*/
+.main-wrapper {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(1fr);*/
+    grid-gap: 4em;
+    /*grid-template-rows:*/
+    padding: 4em;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-wrapper p {
+    padding-bottom: 30px;
+}
+
+.main-wrapper a:link {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.main-wrapper img {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.teema, .teema1, .teema2, .teema3, .teema4 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black
+    /*    border: 1px solid black;*/
+}
+
+.teema1 h3, .teema2 h3, .teema3 h3, .teema4 h3 {
+    padding-bottom: 20px;
+}
+
+/* HTML LEHT LÕPP*/
+
+/*CSS ALGUS*/
+
+.css, .css1, .css2, .css3, .css4 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black
+    /*    border: 1px solid black;*/
+}
+
+/*CSS LÕPP*/
+
+
+
+
+/* HTML Section */
+
+
+#html {
+    
+    text-align: center;
+    padding: 2rem;
+    color: var(--lblue);
+    height: 30vh;
+    position: relative;
+    
+}
+
+
+#html h1{
+    
+    text-align: center;
+    color: var(--lblue);
+    
+}
+
+
+#html::before, #css::before {
+    
+    content: '';
+    background: url(../img/html.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.10;
+    
+}
+
+
+#btn-html {
+    
+    color: var(--lblue);
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 1px solid var(--lblue);
+    position: relative;
+    top: 5rem;
+    transition: 0.2s ease;
+    
+}
+
+#btn-html:hover {
+    
+    top: 4.8rem;
+    
+}
+
+#btn-html a {
+    
+    color: #fff;
+    
+}
+
+
+
+/* CSS Section */
+
+#css {
+    
+    text-align: center;
+    padding: 2rem;
+    color: var(--lblue);
+/*    background: var(--lblue);*/
+    height: 30vh;
+    position: relative;
+    
+}
+
+
+#btn-css {
+    
+    color: var(--lblue);
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 1px solid var(--lblue);
+    position: relative;
+    top: 5rem;
+    transition: 0.2s ease;
+    
+}    
+
+#btn-css:hover {
+    
+    top: 4.8rem;
+    
+}
+
+#btn-css a {
+    
+    color: #fff;
+    
+}
+
+/* Footer */
+
+
+footer {
+    
+    width: 100%;
+    color: #fff;
+    background: var(--lblue);
+    padding-bottom: 2rem;
+    
+}
+
+.footer-content {
+    
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.footer-content-heading {
+    
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    
+}
+
+
+.footer-content ul li{
+    
+    list-style: none;
+    padding: 0.2rem 0;
+    
+}
+
+.footer-content li a {
+        
+        color: #fff;
+        
+}
+
+/* Kontakti Leht */ 
+
+
+#kontakt {
+    
+    padding: 4rem 0;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+#kontakt form {
+    
+    position: relative;
+    padding-left: 25%;    
+    
+}
+
+#kontakt form input:first {
+    
+    margin-top: 10px;
+    
+}
+
+#kontakt form input {
+    
+    margin-bottom: 10px;
+    
+}
+
+
+#kontakt form textarea {
+    
+    resize: none;
+    
+}
+
+#kontakt input, textarea {
+    
+    width: 70%;
+    
+}
+
+#kontakt button[type="submit"]  {
+    
+    padding: 10px 10px;
+    color: #fff;
+    background: var(--lblue);
+    outline: none;
+    border: 1px solid #fff;
+    transition: 0.3s linear;
+    text-transform: uppercase;
+    width: 70%;
+}
+
+#kontakt .gpdr {
+    
+    margin: 10px 0px;
+    width: 200px;
+    
+}
+
+
+#kontakt .gpdr input {
+    
+    margin-left: -65px;
+    
+}
+
+#kontakt .gpdr span {
+    
+    margin-left: -60px;
+    word-wrap: break-word;
+    
+}
+
+#kontakt .gpdr small {
+    
+    margin-top: 5px;
+    font-size: .95rem;
+    
+}
+
+#kontakt .gpdr a {
+    
+    color: var(--lblue);
+    
+}
+
+/*
+#kontakt input[type="button"]:hover  {
+    
+    transform: translateY(-2px);
+    
+}
+*/
+
+
+/* Privaatsustingimuste leht */
+
+#privaatsustingimused {
+    
+    padding: 2% 5%;
+    
+}
+
+#privaatsustingimused a:any-link {
+    
+    color: var(--lblue);
+    padding-bottom: 2px;
+    
+}
+
+#privaatsustingimused a:any-link:hover {
+    
+    border-bottom: 1px solid var(--lblue);
+    
+}
+
+#privaatsustingimused h1 {
+    
+    margin-bottom: 40px;
+    font-size: 2rem;
+    
+}
+
+#privaatsustingimused h4 {
+    
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    
+}
+
+/* Tutvustuse leht */
+
+
+#tutvustus {
+    
+    text-align: center;
+    padding: 5% 2%;
+    
+}
+
+#tutvustus h2 {
+    
+    padding: 2% 0%;
+    line-height: 2.5rem;
+    
+}
+
+#tutvustus h3 {
+    
+    padding: 4% 0%;
+    font-weight: 400;
+    line-height: 1.5rem;
+    
+}
+
+
+#tutvustus .tutvustus-img {
+    
+    padding: 15% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#tutvustus .tutvustus-img img{
+    
+    padding: 10% 0;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+/* 
+
+MEDIA QUERIES
+
+*/
+
+
+@media only screen and (max-width: 435px) {
+    
+    header p {
+        
+        position: absolute;
+        top: 4rem;
+        left: 8.8rem;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    
+    header {
+        
+        height: 80px;
+        
+    }
+    
+    header p {
+        
+        position: absolute;
+        top: 4rem;
+        left: 7.5rem;
+        
+    }
+    
+}
+
+@media only screen and (min-width 900px) {
+/*
+    header p {
+    
+    position: absolute;
+    top: 4.2rem;
+    left: 4.8rem;
+    
+    }
+*/
+    
+header p {
+    
+    position: absolute;
+    top: 5.5rem;
+    left: 12.7rem;
+    
+}
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    
+    #openMobileMenu, .mobile-nav {
+        
+        display: none;
+        
+    }
+    
+    header {
+        
+        padding-top: 1%;
+        display: flex;
+        
+    }
+    
+    
+    .main-wrapper img {
+        
+    width: 45%;
+        
+    }
+
+    
+    
+    header p {
+    
+        
+    position: absolute;
+    top: 5.5rem;
+    left: 12.7rem;
+        
+        
+/*
+    position: absolute;
+    top: 4.2rem;
+    left: 4.8rem;
+*/
+    
+}
+    
+    
+    #logo {
+        
+        width: 20%;
+        
+    }
+    
+    
+    .main-nav {
+        
+        display: inline;
+        list-style: none;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        
+    }
+    .main-nav li {
+        
+        display: inline-block;
+        padding: 5px;
+        margin: 0 10px;
+    
+    }
+    
+    .main-nav li a {
+        
+        color: #fff;
+        font-size: 1.2rem;
+        
+    }
+    
+    .main-nav li:hover a {
+        
+        border-bottom: 1px solid #fff;
+        
+    }
+    
+
+    
+    #html h1{
+        
+        font-size: 2rem;
+        
+    }
+    
+    
+    #css h1 {
+        
+        font-size: 2rem;
+        
+    }
+    
+    #btn-html, #btn-css {
+        
+        top: 10rem;
+        font-size: 1.4rem;
+        
+    }
+    
+    #btn-html:hover, #btn-css:hover {
+        
+        top: 9.8rem;
+        
+    }
+
+    
+    
+    /* Kontakti Leht */
+    
+    
+    
+    #kontakt {
+        
+        width: 50%;
+        padding-left: 5%;
+    
+    }
+    
+    #kontakt .gpdr {
+    
+    margin: 10px 0px;
+    width: 100%;
+    
+}
+
+
+#kontakt .gpdr input {
+    
+    position: relative;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    margin-left: 0px;
+    
+}
+
+#kontakt .gpdr span {
+    
+    margin-left: 5px;
+    
+}
+
+#kontakt .gpdr small {
+    
+    font-size: .95rem;
+    margin-left: 15px;
+    
+}
+
+#kontakt .gpdr a {
+    
+    color: var(--lblue);
+    
+}
+    
+    #kontakt form{
+        
+        padding: 0;
+        
+    }
+    
+    #kontakt button[type="submit"] {
+        
+        margin-top: 10px;
+        border: 1px solid var(--lblue);
+        width: 25%;
+        
+    }   
+        
+    
+    #googlemap {
+        
+        width: 100%;
+        
+    }
+    
+  /* Tutvustuse leht */  
+    
+    
+#tutvustus {
+    
+    text-align: center;
+    padding: 5% 2%;
+    
+}
+
+#tutvustus h2 {
+    
+    padding: 2% 0%;
+    line-height: 2.5rem;
+    
+}
+
+#tutvustus h3 {
+    
+    padding: 2% 0%;
+    line-height: 1.5rem;
+    
+}
+
+
+#tutvustus .tutvustus-img {
+    
+    display: flex;
+    padding: 1% 2%;
+    display: flex;
+    flex-wrap: wrap;
+/*    justify-content: center;*/
+}
+    
+#tutvustus .tutvustus-img img{
+    
+    padding: 0;
+    height: 350px;
+
+}
+    
+    #tutvustus .tutvustus-img .spacer {
+        
+        width: 20%;
+        
+    }
+    
+    
+    footer {
+        
+        padding: 3rem 0;
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    
+    
+    .footer-content {
+        
+        display: inline-block;
+        width: 100%;
+        
+    }
+    
+    .footer-content li a {
+        
+        color: #fff;
+        
+    }
+        
+    
+    .footer-content-heading {
+        
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        
+    }
+    
+    
+    
+}
